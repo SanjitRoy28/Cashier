@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 import rospy
+import sys
+sys.path.append('/home/sunny/ERC_ws/src/cashier_pkg/')
 from cashier_pkg.msg import Bill
 
 def publish_bill():

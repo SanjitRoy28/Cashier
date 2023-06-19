@@ -1,0 +1,5 @@
+uint32 quantity
+float32 total
+---
+bool success
+string message
